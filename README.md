@@ -296,9 +296,9 @@ Here are three potential next steps that the manufacturer can take to further im
 
 ├── Automation_Integration_Via_Dermason_Bean_Classification.ipynb
 
-├── Automation_Machine_Learning_Slides.pdf
+├── Automation_Integration_Via_Dermason_Bean_Classification.pdf
 
-├── 
+├── Automation_Machine_Learning_Slides.pdf
 
 └── README.md
 
