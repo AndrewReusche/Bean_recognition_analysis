@@ -4,7 +4,7 @@ Author: Andrew Reusche
 
 ## Business problem: 
 
-![manual_bean_sorting.jpg](attachment:e7671449-5487-4972-a3e6-281119d22e5c.jpg)
+![Bean sort](./pictures/manual_bean_sorting.jpg 'Bean sort')
 
 A food manufacturer who buys bulk quantities of beans wants to see if classification via machine learning can be utilized to help automate some of their production systems and improve their manufacturing efficiency.
 
@@ -297,8 +297,6 @@ Here are three potential next steps that the manufacturer can take to further im
 ├── Automation_Integration_Via_Dermason_Bean_Classification.ipynb
 
 ├── Automation_Machine_Learning_Slides.pdf
-
-├── 
 
 ├── 
 
