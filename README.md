@@ -4,8 +4,6 @@ Author: Andrew Reusche
 
 ## Business problem: 
 
-![Bean sort](./pictures/manual_bean_sorting.jpg 'Bean sort')
-
 A food manufacturer who buys bulk quantities of beans wants to see if classification via machine learning can be utilized to help automate some of their production systems and improve their manufacturing efficiency.
 
 ### Test case area of concern:
@@ -277,9 +275,9 @@ Here are three potential next steps that the manufacturer can take to further im
 
 1) Add additional types of sensors to the bean conveyor belt. Currently, this model is only run using dimensional multivariate data from computer vision processing. Beans have many more easily quantifiable attributes like weight and color that could be taken into account when trying to classify the type of bean. Equipping the conveyor with sensors that can extract this currently unquantified data could improve the effectiveness of this model.
 
-2) We can run deeper parameter and data pre-processing grid searches on more classification models, like K Nearest Kneighbors or Random Forest, to see if there is an even more effective machine learning classifier that can be utilized.
+2) Instead of running a bunch of individual one vs all classifications to sort the different types of beans, we could make a multiclassification model that classifies all the different kinds of beans at once.
 
-3) Given more metrics and context other than product dimensions, a classification model could be created to separate the products by grade and quality. This could enable the manufacturer to seperate one product into different tears such as: Medicinal Grade, Human Consumption, Animal Consumption, and Throw Away.
+3) Given more metrics and context other than product dimensions, a classification model could be created to separate the products by grade and quality. This could enable the manufacturer to separate one product into different tears such as: Medicinal Grade, Human Consumption, Animal Consumption, and Throw Away.
 
 
 
